@@ -1,1 +1,39 @@
 /** @format */
+
+header {
+  height: 60px;
+  background-color: #fff2d1;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 18%);
+  z-index: 99;
+  position: relative;
+}
+
+header h1 {
+  margin-left: 2em;
+  font-size: 23px;
+  color: #ff7b00;
+  font-family: "Quicksand";
+  font-weight: bold;
+}
+
+.header-img {
+  background-image: url("handson_images/top-bg-image.jpg");
+  height: 416px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+main {
+  background-color: #eaedf2;
+}
+
+.two-grid {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: 70% 30%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
