@@ -112,6 +112,19 @@ h5 {
   object-fit: cover;
   width: 100%;
   height: 200px;
+  position: relative;
+}
+.card-genre {
+  font-size: 0.7em;
+  position: relative;
+  padding: 2px 4px;
+  top: -190px;
+  left: 12px;
+  border-radius: 12px;
+  background-color: #ff8f26;
+  color: #fff;
+  width: auto;
+  text-align: center;
 }
 .card {
   background-color: #fff;
@@ -125,4 +138,68 @@ h5 {
 }
 .card div {
   padding-left: 2em;
+}
+
+.recent-posts {
+  background-color: #fff;
+}
+.sidebar-title {
+  background-color: #fff2d1;
+  color: #ff7b00;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0.7em;
+}
+
+.sidebar-posts {
+}
+.sidebar-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.sidebar-post img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  padding: 0.5em;
+}
+.sidebar-post p {
+  width: 250px;
+  color: #626262;
+  font-weight: bold;
+  font-size: 15px;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tag {
+  color: #626262;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+
+.tag:hover {
+  background-color: #000;
+}
+
+@media screen and (max-width: 770px) {
+  .two-grid {
+    grid-auto-rows: auto;
+    grid-template-columns: 100%;
+  }
+  .card {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
